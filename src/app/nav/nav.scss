@@ -2,28 +2,68 @@
 
 .nav-main {
     width: 100%;
+    box-shadow: 0 2px 5px #ddd;
+    border-bottom: 2px solid #ddd;
     background-color: #fff;
     .navbar {
         min-height: 40px;
         height: 40px;
+        margin-bottom: 0;
         border-radius: 0;
         border: 0;
         background-color: #fff;
         line-height: 40px;
-        color: $font-thinbrown;
+        color: #888;
         font-size: 12px;
+    }
+    .navbar-header {
+        span:first-child {
+            margin-right: 30px;
+        }
     }
     .navbar-nav {
         height: 40px;
         line-height: 40px;
-        li{
-        	height:40px;
-        	line-height:40px;
+        li {
+            height: 40px;
+            line-height: 40px;
         }
-        a{
-        	padding: 0 15px;
-        	height:40px;
-        	line-height: 40px;
+        a {
+            padding: 0 15px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+}
+
+.nav-input {
+    .nblogo {
+        height: 96px;
+        background: url("../assets/images/logo.png") no-repeat center;
+        background-size: 85%;
+    }
+    .serchbar {
+        height: 44px;
+        margin: 25px 0;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        i {
+        	display:inline-block;
+        	vertical-align: middle;
+            font-size: 20px;
+            line-height: 38px;
+            color: #545454;
+        }
+        input {
+        	display:inline-block;
+        	vertical-align:middle;
+        	width: 88%;
+        	height:42px;
+        	border:0;
+        	text-indent: 20px;
+        }
+        span{
+        	
         }
     }
 }
