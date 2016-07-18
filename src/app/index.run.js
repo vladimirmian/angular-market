@@ -3,12 +3,8 @@
 
   angular
     .module('angularMarket')
-    .run(runBlock);
-
-  /** @ngInject */
-  function runBlock($log) {
-
-    $log.debug('runBlock end');
-  }
+    .run(function($log){
+      $log.debug('runBlock end');
+    });
 
 })();

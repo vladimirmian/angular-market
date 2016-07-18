@@ -4,7 +4,5 @@
 
   angular
     .module('angularMarket')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
 
 })();

@@ -3,6 +3,6 @@
 
   angular
     .module('angularMarket')
-    .controller('MainController', function ($scope) {
+    .controller('Navctrl', function ($scope) {
     });
 })();
