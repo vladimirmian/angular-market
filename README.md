@@ -4,8 +4,8 @@
 1、项目准备，node,bower
 #项目安装
 npm install
-如果无法安装，可以安装淘宝的cnpm镜像
-bower install
+如果无法安装，可以安装淘宝的cnpm镜像<br/>
+然后bower install
 #运行项目
 gulp serve
 #打包项目
