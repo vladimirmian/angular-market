@@ -45,6 +45,8 @@
     .serchbar {
         height: 44px;
         margin: 25px 0;
+        padding: 0;
+        padding-left: 15px;
         border: 1px solid #ddd;
         background-color: #fff;
         i {
@@ -52,7 +54,7 @@
         	vertical-align: middle;
             font-size: 20px;
             line-height: 38px;
-            color: #545454;
+            color: #999;
         }
         input {
         	display:inline-block;
@@ -63,7 +65,22 @@
         	text-indent: 20px;
         }
         span{
-        	
+            display: inline-block;
+            vertical-align: middle;
+            width: 67px;
+            text-align: center;
+            height: 42px;
+            line-height: 42px;
+            font-size: 14px;
+            color: #fff;
+            background-color: #666;
+            cursor: pointer;
         }
+    }
+    .cart{
+        display: inline-block;
+        vertical-align: middle;
+        height: 44px;
+        margin: 25px 0;
     }
 }
