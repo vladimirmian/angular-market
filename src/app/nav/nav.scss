@@ -59,7 +59,7 @@
         input {
         	display:inline-block;
         	vertical-align:middle;
-        	width: 88%;
+        	width: 86%;
         	height:42px;
         	border:0;
         	text-indent: 20px;
@@ -72,8 +72,7 @@
             height: 42px;
             line-height: 42px;
             font-size: 14px;
-            color: #fff;
-            background-color: #666;
+            color: #000;
             cursor: pointer;
         }
     }
@@ -82,5 +81,43 @@
         vertical-align: middle;
         height: 44px;
         margin: 25px 0;
+    }
+}
+.nav-content{
+    display: inline-block;
+    width: 100%;
+    .container{
+        border-bottom:2px solid #000;
+    }
+    li{
+        list-style: none;
+    }
+    .all-content{
+        display: inline-block;
+        vertical-align: middle;
+        width: 200px;
+        height: 36px;
+        padding: 0 15px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #000;
+    }
+    .sub-nav{
+        display: inline-block;
+        vertical-align: middle;
+        height: 36px;
+        font-size: 14px;
+        line-height: 36px;
+        span{
+            padding: 0 20px;
+            a{
+                display: inline-block;
+                height: 36px;
+                line-height: 36px;
+                font-size: 14px;
+                color: #333;
+            }
+        }
     }
 }
